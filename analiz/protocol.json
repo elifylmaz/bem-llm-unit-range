@@ -1,0 +1,155 @@
+{
+  "tested_buildings": [
+    "OfficeMedium",
+    "SchoolPrimary",
+    "RetailStripmall",
+    "ApartmentMidRise",
+    "RestaurantFastFood"
+  ],
+  "pool_buildings": [
+    "ApartmentHighRise",
+    "Hospital",
+    "HotelLarge",
+    "HotelSmall",
+    "OfficeLarge",
+    "OfficeSmall",
+    "OutPatientHealthCare",
+    "RestaurantSitDown",
+    "RetailStandalone",
+    "SchoolSecondary",
+    "Warehouse"
+  ],
+  "master_seed": 1542799867,
+  "seeds": [
+    1542799867,
+    1542799868,
+    1542799869,
+    1542799870,
+    1542799871
+  ],
+  "climates": {
+    "main": "5A",
+    "validation": [
+      "1A",
+      "7"
+    ]
+  },
+  "buffer_method": "1/(pool_n - 1) of observed min-max width",
+  "physical_bounds": {
+    "window_u_value": [
+      0.0,
+      null
+    ],
+    "window_shgc": [
+      0.0,
+      1.0
+    ],
+    "lighting_W_m2": [
+      0.0,
+      null
+    ],
+    "equipment_W_m2": [
+      0.0,
+      null
+    ],
+    "occupancy_m2_person": [
+      0.0,
+      null
+    ],
+    "outdoor_air": [
+      0.0,
+      null
+    ],
+    "cooling_cop": [
+      0.0,
+      null
+    ],
+    "heating_setpoint_C": [
+      10.0,
+      30.0
+    ],
+    "cooling_setpoint_C": [
+      15.0,
+      35.0
+    ]
+  },
+  "target_parameters": [
+    "window_u_value",
+    "window_shgc",
+    "lighting_W_m2",
+    "equipment_W_m2",
+    "occupancy_m2_person",
+    "outdoor_air",
+    "cooling_cop",
+    "heating_setpoint_C",
+    "cooling_setpoint_C"
+  ],
+  "control_parameters": [
+    "infiltration",
+    "heating_efficiency",
+    "roof_u_value"
+  ],
+  "control_parameters_file": "sprint2_lobo/control_parameters.json",
+  "buffer_sensitivity_file": "sprint2_lobo/buffer_sensitivity.csv",
+  "test_set_rationale": "RestaurantFastFood replaces SmallOffice to increase occupancy/internal-load diversity in the test set; fixed a priori, not revised after seeing results.",
+  "models": [
+    "llama-3.3-70b-versatile",
+    "openai/gpt-oss-120b"
+  ],
+  "model_resolution_log": [
+    {
+      "planned": "llama-3.3-70b-versatile",
+      "used": "llama-3.3-70b-versatile",
+      "status": "ok"
+    },
+    {
+      "planned": "openai/gpt-oss-120b",
+      "used": "openai/gpt-oss-120b",
+      "status": "ok"
+    }
+  ],
+  "retry_policy": {
+    "max_attempts_per_call": 2,
+    "backoff_s": 3,
+    "consecutive_failure_stop_threshold": 5
+  },
+  "seed_control": {
+    "method": "same-seed repeatability smoke test / provider-supported best-effort seed control",
+    "results_by_model": {
+      "llama-3.3-70b-versatile": [
+        {
+          "building": "OfficeMedium",
+          "same_seed_repeatable": false,
+          "distinct_across_seeds": true
+        },
+        {
+          "building": "SchoolPrimary",
+          "same_seed_repeatable": false,
+          "distinct_across_seeds": true
+        },
+        {
+          "building": "RetailStripmall",
+          "same_seed_repeatable": false,
+          "distinct_across_seeds": true
+        }
+      ],
+      "openai/gpt-oss-120b": [
+        {
+          "building": "OfficeMedium",
+          "same_seed_repeatable": false,
+          "distinct_across_seeds": true
+        },
+        {
+          "building": "SchoolPrimary",
+          "same_seed_repeatable": false,
+          "distinct_across_seeds": true
+        },
+        {
+          "building": "RetailStripmall",
+          "same_seed_repeatable": false,
+          "distinct_across_seeds": true
+        }
+      ]
+    }
+  }
+}

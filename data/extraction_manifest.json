@@ -1,0 +1,102 @@
+{
+  "source_listing_url": "https://www.energycodes.gov/prototype-building-models",
+  "buildings": {
+    "OfficeMedium": {
+      "source_zip_name": "ASHRAE901_OfficeMedium_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_OfficeMedium_STD2019_Buffalo.idf",
+      "idf_sha256": "4f92e85d6a8e5975f763c892975a29ebd0c96659459c28b177090fc6b35d9613"
+    },
+    "SchoolPrimary": {
+      "source_zip_name": "ASHRAE901_SchoolPrimary_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_SchoolPrimary_STD2019_Buffalo.idf",
+      "idf_sha256": "4fc5b539442bbb060ff3d0c4ebeb8dec2a365a8cfedce990726a39759a0e5d77"
+    },
+    "RetailStripmall": {
+      "source_zip_name": "ASHRAE901_RetailStripmall_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_RetailStripmall_STD2019_Buffalo.idf",
+      "idf_sha256": "1ecee4036befeae78422c7f5460790715123146214149ebd89bdbcd784547ec8"
+    },
+    "ApartmentMidRise": {
+      "source_zip_name": "ASHRAE901_ApartmentMidRise_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_ApartmentMidRise_STD2019_Buffalo.idf",
+      "idf_sha256": "a7e65e041cbb528de1e11596f1100e9d9fe3e7cd7e8cff15998ac35347d7a114"
+    },
+    "RestaurantFastFood": {
+      "source_zip_name": "ASHRAE901_RestaurantFastFood_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_RestaurantFastFood_STD2019_Buffalo.idf",
+      "idf_sha256": "76941b735793459eb70668c75754c9260a004a65956ddabdcc06d1f6f6bb5ac3"
+    },
+    "ApartmentHighRise": {
+      "source_zip_name": "ASHRAE901_ApartmentHighRise_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_ApartmentHighRise_STD2019_Buffalo.idf",
+      "idf_sha256": "3b5e0d5d9496e66e3c3cd1f46bdfe2d3c8aca63880419b8f7167b972fd675194"
+    },
+    "Hospital": {
+      "source_zip_name": "ASHRAE901_Hospital_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_Hospital_STD2019_Buffalo.idf",
+      "idf_sha256": "0f02d7857870e75e594ff19236b9fd3395eebf315ee56abeb9e2a846e5e48b78"
+    },
+    "HotelLarge": {
+      "source_zip_name": "ASHRAE901_HotelLarge_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_HotelLarge_STD2019_Buffalo.idf",
+      "idf_sha256": "e40d0b09e7f836135c0083bf2f7259fbe5d965b339a8a5b3920634a79cddf829"
+    },
+    "HotelSmall": {
+      "source_zip_name": "ASHRAE901_HotelSmall_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_HotelSmall_STD2019_Buffalo.idf",
+      "idf_sha256": "57f3afcc90dfb60f00a8770714ae0bcb1eae2259105dff6addcd62f8b9ab568f"
+    },
+    "OfficeLarge": {
+      "source_zip_name": "ASHRAE901_OfficeLarge_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_OfficeLarge_STD2019_Buffalo.idf",
+      "idf_sha256": "9774a378c1cecba50ae74890df8cb0b6a2c3f747c68c71f0f564cc14a413626b"
+    },
+    "OfficeSmall": {
+      "source_zip_name": "ASHRAE901_OfficeSmall_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_OfficeSmall_STD2019_Buffalo.idf",
+      "idf_sha256": "e350d1b2737b6bef616ce942bea1aa682e412ab2b9fc59fd624c5b9f3a8073d4"
+    },
+    "OutPatientHealthCare": {
+      "source_zip_name": "ASHRAE901_OutPatientHealthCare_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_OutPatientHealthCare_STD2019_Buffalo.idf",
+      "idf_sha256": "bdcaa293d4fae4fa6a81d5c9d3e5de9e8d2fc83ffae10822295fb5f1206b902c"
+    },
+    "RestaurantSitDown": {
+      "source_zip_name": "ASHRAE901_RestaurantSitDown_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_RestaurantSitDown_STD2019_Buffalo.idf",
+      "idf_sha256": "7441dd05dc06f2dab9e3d20815607cb4e81cb3756e0de8008caa07bc34950234"
+    },
+    "RetailStandalone": {
+      "source_zip_name": "ASHRAE901_RetailStandalone_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_RetailStandalone_STD2019_Buffalo.idf",
+      "idf_sha256": "f0d7053e723a123a2c0630a4c0747675373eb937e628b5e1d376498dc0d106cc"
+    },
+    "SchoolSecondary": {
+      "source_zip_name": "ASHRAE901_SchoolSecondary_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_SchoolSecondary_STD2019_Buffalo.idf",
+      "idf_sha256": "8ccec4120dc47b6d7b46226e58ca5cf0fa5983fc135ddea4787e3ca028d93533"
+    },
+    "Warehouse": {
+      "source_zip_name": "ASHRAE901_Warehouse_STD2019.zip",
+      "selected_internal_idf_filename": "ASHRAE901_Warehouse_STD2019_Buffalo.idf",
+      "idf_sha256": "124624e23f5ef1fb7503b1ee7066463464ba80c4bffc051cee2674199e80103e"
+    }
+  },
+  "epw_files": {
+    "5A": {
+      "filename": "5A_Buffalo.epw",
+      "source_url": "https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/NY/USA_NY_Buffalo.Niagara.Intl.AP.725280_TMY3/USA_NY_Buffalo.Niagara.Intl.AP.725280_TMY3.epw",
+      "sha256": "9abf8bafa1bba553529e85337720d266c1574de5063503998afb20f1d32f4c37"
+    },
+    "1A": {
+      "filename": "1A_Miami.epw",
+      "source_url": "https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/FL/USA_FL_Miami.Intl.AP.722020_TMY3/USA_FL_Miami.Intl.AP.722020_TMY3.epw",
+      "sha256": "020899309ab9b0b7ffe03ccb2b502192107022f08b9d797abf79921e05b0a56a"
+    },
+    "7": {
+      "filename": "7_InternationalFalls.epw",
+      "source_url": "https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/MN/USA_MN_International.Falls.Intl.AP.727470_TMY3/USA_MN_International.Falls.Intl.AP.727470_TMY3.epw",
+      "sha256": "cdc284f72726c6fb64f6e2e67a05bafe6816fa2702b94991dd397935ed851b3b"
+    }
+  }
+}

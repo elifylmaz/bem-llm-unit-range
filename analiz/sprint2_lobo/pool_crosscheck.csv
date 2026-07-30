@@ -1,0 +1,10 @@
+building,parameter,pipeline_value,n_objects
+Hospital,equipment_W_m2,23.706,50
+Hospital,occupancy_m2_person,52.687,55
+Hospital,cooling_cop,5.418,3
+HotelLarge,equipment_W_m2,18.443,22
+HotelLarge,occupancy_m2_person,13.853,22
+HotelLarge,cooling_cop,6.67,1
+Warehouse,equipment_W_m2,2.938,2
+Warehouse,occupancy_m2_person,43.025,3
+Warehouse,cooling_cop,3.835,2

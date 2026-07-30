@@ -1,0 +1,36 @@
+{
+  "llama-3.3-70b-versatile": [
+    {
+      "building": "OfficeMedium",
+      "same_seed_repeatable": false,
+      "distinct_across_seeds": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "same_seed_repeatable": false,
+      "distinct_across_seeds": true
+    },
+    {
+      "building": "RetailStripmall",
+      "same_seed_repeatable": false,
+      "distinct_across_seeds": true
+    }
+  ],
+  "openai/gpt-oss-120b": [
+    {
+      "building": "OfficeMedium",
+      "same_seed_repeatable": false,
+      "distinct_across_seeds": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "same_seed_repeatable": false,
+      "distinct_across_seeds": true
+    },
+    {
+      "building": "RetailStripmall",
+      "same_seed_repeatable": false,
+      "distinct_across_seeds": true
+    }
+  ]
+}

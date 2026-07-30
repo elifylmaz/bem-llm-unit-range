@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:/content/drive/MyDrive/BEM-LLM/idf_llm/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868.rvi
+ input file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868/eplusout.eso
+ output file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868/eplusout.csv
+ getting all vars from:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868/eplusout.eso
+  number variables requested for output=          56
+ ReadVars Run Time=00hr 00min  0.12sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:/content/drive/MyDrive/BEM-LLM/idf_llm/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868.mvi
+ input file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868/eplusout.mtr
+ output file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868/eplusmtr.csv
+ getting all vars from:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_5A_F1_gpt-oss-120b_seed1542799868/eplusout.mtr
+  number variables requested for output=           4
+ ReadVars Run Time=00hr 00min  0.25sec
+ ReadVarsESO program completed successfully.

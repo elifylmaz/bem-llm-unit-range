@@ -1,0 +1,5 @@
+test,statistic,p
+"Kruskal-Wallis Unit (GSO, marginal)",54.096286878740834,1.909016727451924e-13
+"Kruskal-Wallis Range (GSO, marginal)",92.3932739494083,7.105517914430462e-22
+"Permutation Unit (GSO, marginal)",0.6468548849376909,0.0
+"Permutation Range (GSO, marginal)",0.7825533864614065,0.0

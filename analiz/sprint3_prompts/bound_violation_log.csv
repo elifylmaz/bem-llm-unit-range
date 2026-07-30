@@ -1,0 +1,3 @@
+parameter,model,count
+cooling_setpoint_C,llama-3.3-70b-versatile,24
+heating_setpoint_C,llama-3.3-70b-versatile,24

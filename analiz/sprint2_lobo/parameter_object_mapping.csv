@@ -1,0 +1,13 @@
+parameter,idf_object,field,unit_conversion,multi_zone_method
+window_u_value,WindowMaterial:SimpleGlazingSystem,U-Factor,direct SI (W/m2K),"Mean across window fenestration surfaces, resolved via Construction lookup"
+window_shgc,WindowMaterial:SimpleGlazingSystem,Solar Heat Gain Coefficient,direct SI (-),Mean across window fenestration surfaces
+lighting_W_m2,Lights,Watts per Zone Floor Area (or Lighting Level / zone area),direct SI or derived (W/m2),Area-weighted mean across zones
+equipment_W_m2,ElectricEquipment,Watts per Zone Floor Area (or Design Level / zone area),direct SI or derived (W/m2),Area-weighted mean; non-occupiable zones excluded
+occupancy_m2_person,People,"Area/Person, People/Area, or Area / people count",direct SI or derived (m2/person),Area-weighted mean across zones
+infiltration,ZoneInfiltration:DesignFlowRate,Flow Rate per Exterior Wall Area,direct SI (m3/s-m2),Mean across Flow/ExteriorWallArea entries; Flow/Zone excluded
+outdoor_air,DesignSpecification:OutdoorAir,Flow per Area / per Person / per Zone,direct SI or derived via zone occupancy (m3/s-m2),"Zone-area-weighted mean, method-aware"
+cooling_cop,Coil:Cooling:DX:*; Chiller:Electric:(Reformulated)EIR; Coil:Cooling:WaterToAirHeatPump,Gross/Reference Cooling COP,direct SI (W/W),Capacity-weighted mean
+heating_efficiency,Coil:Heating:Fuel/Gas; Boiler:HotWater; Coil:Heating:Electric,Burner/Thermal Efficiency (Electric = 1.0),direct SI (-),Capacity-weighted mean
+heating_setpoint_C,ThermostatSetpoint:DualSetpoint -> Schedule:Compact,Heating schedule value,direct SI (C),"Median of occupied-range values per thermostat, mean across thermostats"
+cooling_setpoint_C,ThermostatSetpoint:DualSetpoint -> Schedule:Compact,Cooling schedule value,direct SI (C),"Median of occupied-range values per thermostat, mean across thermostats"
+roof_u_value,BuildingSurface:Detailed (roof/ceiling) -> Construction -> Material/:NoMass/:AirGap,Thermal Resistance (summed across layers),derived: U = 1/R_total,Most-insulated candidate construction selected

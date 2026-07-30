@@ -1,0 +1,17 @@
+model,format,parameter,n_calls,n_fahrenheit_like,n_would_be_valid_after_conversion
+llama-3.3-70b-versatile,F1,cooling_setpoint_C,25,24,24
+llama-3.3-70b-versatile,F1,heating_setpoint_C,25,24,24
+llama-3.3-70b-versatile,F2,cooling_setpoint_C,25,0,0
+llama-3.3-70b-versatile,F2,heating_setpoint_C,25,0,0
+llama-3.3-70b-versatile,F3,cooling_setpoint_C,25,0,0
+llama-3.3-70b-versatile,F3,heating_setpoint_C,25,0,0
+llama-3.3-70b-versatile,F4,cooling_setpoint_C,75,0,0
+llama-3.3-70b-versatile,F4,heating_setpoint_C,75,0,0
+openai/gpt-oss-120b,F1,cooling_setpoint_C,25,0,0
+openai/gpt-oss-120b,F1,heating_setpoint_C,25,0,0
+openai/gpt-oss-120b,F2,cooling_setpoint_C,25,0,0
+openai/gpt-oss-120b,F2,heating_setpoint_C,25,0,0
+openai/gpt-oss-120b,F3,cooling_setpoint_C,25,0,0
+openai/gpt-oss-120b,F3,heating_setpoint_C,25,0,0
+openai/gpt-oss-120b,F4,cooling_setpoint_C,75,0,0
+openai/gpt-oss-120b,F4,heating_setpoint_C,75,0,0

@@ -1,0 +1,40 @@
+{
+  "sprint": "Sprint 3",
+  "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "package_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "groq": "1.6.0"
+  },
+  "master_seed": 1542799867,
+  "n_api_keys": 1,
+  "models": [
+    "llama-3.3-70b-versatile",
+    "openai/gpt-oss-120b"
+  ],
+  "model_settings": {
+    "llama-3.3-70b-versatile": {
+      "temperature": 0.7,
+      "max_tokens": 400,
+      "reasoning_effort": null,
+      "json_mode": true,
+      "top_p": 1.0,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "response_format_type": "json_object",
+      "timeout_s": 60
+    },
+    "openai/gpt-oss-120b": {
+      "temperature": 0.7,
+      "max_tokens": 800,
+      "reasoning_effort": "low",
+      "json_mode": true,
+      "top_p": 1.0,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "response_format_type": "json_object",
+      "timeout_s": 60
+    }
+  }
+}

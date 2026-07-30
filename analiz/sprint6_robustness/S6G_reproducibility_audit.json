@@ -1,0 +1,127 @@
+{
+  "lobo_range_table_hash": "5229b2295c95c99b",
+  "parameter_object_mapping_hash": "52117144c67704ce",
+  "protocol_hash": "8ccb8a4f4e183964",
+  "environment_sprint1.json": {
+    "sprint": "Sprint 1",
+    "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "energyplus_version": "EnergyPlus, Version 23.2.0-7636e6b3e9",
+    "master_seed": 1542799867,
+    "master_seed_derivation": "int(sha256(\"BEM-LLM-v1\"), 16) % 2**31"
+  },
+  "environment_sprint2.json": {
+    "sprint": "Sprint 2",
+    "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "energyplus_version": "not found",
+    "package_versions": {
+      "numpy": "2.0.2",
+      "pandas": "2.2.2",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.0"
+    },
+    "master_seed": 1542799867
+  },
+  "environment_sprint3.json": {
+    "sprint": "Sprint 3",
+    "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "package_versions": {
+      "numpy": "2.0.2",
+      "pandas": "2.2.2",
+      "groq": "1.6.0"
+    },
+    "master_seed": 1542799867,
+    "n_api_keys": 1,
+    "models": [
+      "llama-3.3-70b-versatile",
+      "openai/gpt-oss-120b"
+    ],
+    "model_settings": {
+      "llama-3.3-70b-versatile": {
+        "temperature": 0.7,
+        "max_tokens": 400,
+        "reasoning_effort": null,
+        "json_mode": true,
+        "top_p": 1.0,
+        "frequency_penalty": 0.0,
+        "presence_penalty": 0.0,
+        "response_format_type": "json_object",
+        "timeout_s": 60
+      },
+      "openai/gpt-oss-120b": {
+        "temperature": 0.7,
+        "max_tokens": 800,
+        "reasoning_effort": "low",
+        "json_mode": true,
+        "top_p": 1.0,
+        "frequency_penalty": 0.0,
+        "presence_penalty": 0.0,
+        "response_format_type": "json_object",
+        "timeout_s": 60
+      }
+    }
+  },
+  "environment_sprint4_main.json": {
+    "sprint": "Sprint 4 - Main Experiment",
+    "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "energyplus_version": "EnergyPlus, Version 22.1.0-ed759b17ee, YMD=2026.07.29 05:55",
+    "n_workers": 2,
+    "ep_timeout_s": 1800,
+    "master_seed": 1542799867,
+    "n_total_vectors": 240,
+    "n_round_trip_rejected": 27,
+    "n_energyplus_attempted": 213,
+    "n_energyplus_ok": 213
+  },
+  "environment_sprint4_stress.json": {
+    "sprint": "Sprint 4 - Weather-File Stress Test",
+    "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "energyplus_version": "EnergyPlus, Version 22.1.0-ed759b17ee, YMD=2026.07.28 16:58",
+    "n_workers": 2,
+    "ep_timeout_s": 1800,
+    "master_seed": 1542799867
+  },
+  "environment_sprint5.json": {
+    "sprint": "Sprint 5 core: K1-K3, K4-energy, K4-GSO, baseline comparison",
+    "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "ashrae14_threshold": {
+      "NMBE_pct": 5.0,
+      "CVRMSE_pct": 15.0
+    },
+    "main_climate": "5A",
+    "stress_climates": [
+      "1A",
+      "7"
+    ],
+    "n_gso_rows_main": 1800,
+    "n_cvrmse_rows_main": 173,
+    "n_eya_rows_main": 208,
+    "n_pfi_rows_all_climates": 2700,
+    "doe_reference_available_at": [
+      "5A"
+    ],
+    "k3_eya_energy_basis": "total (electricity + gas)",
+    "k2_cvrmse_energy_basis": "electricity only (ASHRAE-14 electric-meter definition)",
+    "k4_gso_formula": "log(1+GSO) ~ Unit*Range + Building + Parameter",
+    "k4_energy_formula": "log(1+CVRMSE) ~ Unit*Range + Building + Model"
+  },
+  "environment_sprint5b.json": {
+    "sprint": "Sprint 5 extended: STI, K5 sensitivity + crosscheck, midpoint, climate x method, FDR",
+    "n_sti_gso_triples": 360,
+    "n_sensitivity_rows": 36,
+    "k5_crosscheck_correlation": -0.4911910392274207,
+    "n_midpoint_rows": 900,
+    "n_fdr_tests": 17,
+    "climate_method_energy_level": "blocked -- no DOE reference at 1A/7",
+    "k4_gso_vs_range_midpoint_p_fdr": 0.09909127607826103
+  },
+  "schema_identical_across_buildings": true,
+  "schema_extraction_failures": 0,
+  "f1_prompt_count": 5,
+  "f4_prompt_count": 15
+}

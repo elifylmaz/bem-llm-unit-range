@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:/content/drive/MyDrive/BEM-LLM/idf_llm/SchoolPrimary_5A_F2_llama-3.rvi
+ input file:/content/drive/MyDrive/BEM-LLM/sonuclar/SchoolPrimary_5A_F2_llama-3.3-70b-versatile_seed1542799871/eplusout.eso
+ output file:/content/drive/MyDrive/BEM-LLM/sonuclar/SchoolPrimary_5A_F2_llama-3.3-70b-versatile_seed1542799871/eplusout.csv
+ getting all vars from:/content/drive/MyDrive/BEM-LLM/sonuclar/SchoolPrimary_5A_F2_llama-3.3-70b-versatile_seed1542799871/eplusout.eso
+  number variables requested for output=          52
+ ReadVars Run Time=00hr 00min  0.12sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:/content/drive/MyDrive/BEM-LLM/idf_llm/SchoolPrimary_5A_F2_llama-3.mvi
+ input file:/content/drive/MyDrive/BEM-LLM/sonuclar/SchoolPrimary_5A_F2_llama-3.3-70b-versatile_seed1542799871/eplusout.mtr
+ output file:/content/drive/MyDrive/BEM-LLM/sonuclar/SchoolPrimary_5A_F2_llama-3.3-70b-versatile_seed1542799871/eplusmtr.csv
+ getting all vars from:/content/drive/MyDrive/BEM-LLM/sonuclar/SchoolPrimary_5A_F2_llama-3.3-70b-versatile_seed1542799871/eplusout.mtr
+  number variables requested for output=           4
+ ReadVars Run Time=00hr 00min  0.24sec
+ ReadVarsESO program completed successfully.

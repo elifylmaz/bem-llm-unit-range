@@ -1,0 +1,9 @@
+tag,round_trip_ok,energyplus_ok,stderr_tail
+ApartmentMidRise_1A_F4_llama-3.3-70b-versatile_seed1542799867,True,True,
+ApartmentMidRise_1A_F4_gpt-oss-120b_seed1542799867,True,True,
+ApartmentMidRise_7_F4_llama-3.3-70b-versatile_seed1542799867,True,True,
+ApartmentMidRise_7_F4_gpt-oss-120b_seed1542799867,True,True,
+OfficeMedium_1A_lobo_median_loo,True,True,
+OfficeMedium_1A_global_constant,True,True,
+OfficeMedium_7_lobo_median_loo,True,True,
+OfficeMedium_7_global_constant,True,True,

@@ -1,0 +1,10 @@
+{
+  "sprint": "Sprint 5 extended: STI, K5 sensitivity + crosscheck, midpoint, climate x method, FDR",
+  "n_sti_gso_triples": 360,
+  "n_sensitivity_rows": 36,
+  "k5_crosscheck_correlation": -0.4911910392274207,
+  "n_midpoint_rows": 900,
+  "n_fdr_tests": 17,
+  "climate_method_energy_level": "blocked -- no DOE reference at 1A/7",
+  "k4_gso_vs_range_midpoint_p_fdr": 0.09909127607826103
+}

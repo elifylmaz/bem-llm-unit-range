@@ -1,0 +1,5 @@
+test,statistic,p
+"Kruskal-Wallis Unit (energy, marginal)",11.422791082546095,0.0007254862699220115
+"Kruskal-Wallis Range (energy, marginal)",7.744273175925244,0.005388314323225726
+"Permutation Unit (energy, marginal)",0.7326409266699363,0.0002
+"Permutation Range (energy, marginal)",0.8932435986568876,0.0

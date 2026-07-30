@@ -1,0 +1,35 @@
+{
+  "description": "DOE prototype original values, held fixed at the IDF value, never presented to the LLM, and excluded from all accuracy calculations.",
+  "parameters": [
+    "infiltration",
+    "heating_efficiency",
+    "roof_u_value"
+  ],
+  "values_by_building": {
+    "OfficeMedium": {
+      "infiltration": 0.00057,
+      "heating_efficiency": 0.8,
+      "roof_u_value": 0.1864
+    },
+    "SchoolPrimary": {
+      "infiltration": 0.00057,
+      "heating_efficiency": 0.8,
+      "roof_u_value": 0.1864
+    },
+    "RetailStripmall": {
+      "infiltration": 0.00057,
+      "heating_efficiency": 0.8,
+      "roof_u_value": 0.1864
+    },
+    "ApartmentMidRise": {
+      "infiltration": 0.00057,
+      "heating_efficiency": 0.8,
+      "roof_u_value": 0.1864
+    },
+    "RestaurantFastFood": {
+      "infiltration": 0.00057,
+      "heating_efficiency": 0.8,
+      "roof_u_value": 0.122
+    }
+  }
+}

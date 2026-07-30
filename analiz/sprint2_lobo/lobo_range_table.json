@@ -1,0 +1,251 @@
+{
+  "method": "Leave-One-Building-Out (LOBO): range derived from the prototype family excluding the target building.",
+  "buffer_method": "1/(pool_n - 1) applied to the observed min-max width, per building x parameter.",
+  "physical_bounds": {
+    "window_u_value": [
+      0.0,
+      null
+    ],
+    "window_shgc": [
+      0.0,
+      1.0
+    ],
+    "lighting_W_m2": [
+      0.0,
+      null
+    ],
+    "equipment_W_m2": [
+      0.0,
+      null
+    ],
+    "occupancy_m2_person": [
+      0.0,
+      null
+    ],
+    "outdoor_air": [
+      0.0,
+      null
+    ],
+    "cooling_cop": [
+      0.0,
+      null
+    ],
+    "heating_setpoint_C": [
+      10.0,
+      30.0
+    ],
+    "cooling_setpoint_C": [
+      15.0,
+      35.0
+    ]
+  },
+  "target_parameters": [
+    "window_u_value",
+    "window_shgc",
+    "lighting_W_m2",
+    "equipment_W_m2",
+    "occupancy_m2_person",
+    "outdoor_air",
+    "cooling_cop",
+    "heating_setpoint_C",
+    "cooling_setpoint_C"
+  ],
+  "control_parameters": [
+    "infiltration",
+    "heating_efficiency",
+    "roof_u_value"
+  ],
+  "control_parameters_file": "control_parameters.json",
+  "range_table": {
+    "OfficeMedium": {
+      "window_u_value": [
+        1.954957,
+        3.563643
+      ],
+      "window_shgc": [
+        0.3601,
+        0.4865
+      ],
+      "lighting_W_m2": [
+        2.461071,
+        10.699929
+      ],
+      "equipment_W_m2": [
+        0.246143,
+        43.315857
+      ],
+      "occupancy_m2_person": [
+        2.682357,
+        56.020643
+      ],
+      "outdoor_air": [
+        0.0,
+        0.00716
+      ],
+      "cooling_cop": [
+        3.111786,
+        6.907214
+      ],
+      "heating_setpoint_C": [
+        18.088571,
+        21.311429
+      ],
+      "cooling_setpoint_C": [
+        22.740714,
+        26.249286
+      ]
+    },
+    "SchoolPrimary": {
+      "window_u_value": [
+        1.954957,
+        3.563643
+      ],
+      "window_shgc": [
+        0.3601,
+        0.4865
+      ],
+      "lighting_W_m2": [
+        2.461071,
+        10.699929
+      ],
+      "equipment_W_m2": [
+        0.246143,
+        43.315857
+      ],
+      "occupancy_m2_person": [
+        2.682357,
+        56.020643
+      ],
+      "outdoor_air": [
+        0.0,
+        0.00716
+      ],
+      "cooling_cop": [
+        3.111786,
+        6.907214
+      ],
+      "heating_setpoint_C": [
+        18.088571,
+        21.311429
+      ],
+      "cooling_setpoint_C": [
+        22.763571,
+        25.906429
+      ]
+    },
+    "RetailStripmall": {
+      "window_u_value": [
+        1.954957,
+        3.563643
+      ],
+      "window_shgc": [
+        0.3601,
+        0.4865
+      ],
+      "lighting_W_m2": [
+        2.461071,
+        10.699929
+      ],
+      "equipment_W_m2": [
+        0.246143,
+        43.315857
+      ],
+      "occupancy_m2_person": [
+        2.682357,
+        56.020643
+      ],
+      "outdoor_air": [
+        0.0,
+        0.00716
+      ],
+      "cooling_cop": [
+        3.111786,
+        6.907214
+      ],
+      "heating_setpoint_C": [
+        18.088571,
+        21.311429
+      ],
+      "cooling_setpoint_C": [
+        22.740714,
+        26.249286
+      ]
+    },
+    "ApartmentMidRise": {
+      "window_u_value": [
+        1.954957,
+        3.563643
+      ],
+      "window_shgc": [
+        0.3601,
+        0.4865
+      ],
+      "lighting_W_m2": [
+        2.461071,
+        10.699929
+      ],
+      "equipment_W_m2": [
+        0.246143,
+        43.315857
+      ],
+      "occupancy_m2_person": [
+        2.682357,
+        56.020643
+      ],
+      "outdoor_air": [
+        0.0,
+        0.00716
+      ],
+      "cooling_cop": [
+        3.111786,
+        6.907214
+      ],
+      "heating_setpoint_C": [
+        18.088571,
+        21.311429
+      ],
+      "cooling_setpoint_C": [
+        22.740714,
+        26.249286
+      ]
+    },
+    "RestaurantFastFood": {
+      "window_u_value": [
+        1.954957,
+        3.563643
+      ],
+      "window_shgc": [
+        0.3601,
+        0.4865
+      ],
+      "lighting_W_m2": [
+        2.461071,
+        10.699929
+      ],
+      "equipment_W_m2": [
+        0.432857,
+        40.515143
+      ],
+      "occupancy_m2_person": [
+        2.682357,
+        56.020643
+      ],
+      "outdoor_air": [
+        0.0,
+        0.005321
+      ],
+      "cooling_cop": [
+        3.111786,
+        6.907214
+      ],
+      "heating_setpoint_C": [
+        18.088571,
+        21.311429
+      ],
+      "cooling_setpoint_C": [
+        22.740714,
+        26.249286
+      ]
+    }
+  }
+}

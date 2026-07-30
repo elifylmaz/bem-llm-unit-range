@@ -1,0 +1,1358 @@
+Program Version,EnergyPlus, Version 22.1.0-ed759b17ee, YMD=2026.07.28 23:00,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** CheckUsedConstructions: There are 31 nominally unused constructions in input.
+   **   ~~~   ** Each Unused construction is shown.
+   ************* Construction=AIR_WALL
+   ************* Construction=DROPCEILING
+   ************* Construction=OPAQUEDOOR
+   ************* Construction=EXT_SLAB_8IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_8IN
+   ************* Construction=EXT_SLAB_6IN_WITH_CARPET
+   ************* Construction=EXT_SLAB_6IN
+   ************* Construction=INT_SLAB_FLOOR
+   ************* Construction=INT_SLAB_CEILING
+   ************* Construction=BASEMENT_WALL
+   ************* Construction=INT_WOOD_FLOOR
+   ************* Construction=EXT_SOFFIT_FLOOR
+   ************* Construction=RES_ROOF
+   ************* Construction=SEMIHEATED_ROOF
+   ************* Construction=RES_ROOF_FLOOR
+   ************* Construction=SEMIHEATED_ROOF_FLOOR
+   ************* Construction=NONRES_EXT_WALL_MID
+   ************* Construction=NONRES_EXT_WALL_TOP
+   ************* Construction=RES_EXT_WALL_GRD
+   ************* Construction=RES_EXT_WALL_MID
+   ************* Construction=RES_EXT_WALL_TOP
+   ************* Construction=SEMIHEATED_EXT_WALL_GRD
+   ************* Construction=SEMIHEATED_EXT_WALL_MID
+   ************* Construction=SEMIHEATED_EXT_WALL_TOP
+   ************* Construction=NONRES_FLOOR
+   ************* Construction=RES_FLOOR
+   ************* Construction=SEMIHEATED_FLOOR
+   ************* Construction=NONRES_FLOOR_CEILING
+   ************* Construction=RES_FLOOR_CEILING
+   ************* Construction=SEMIHEATED_FLOOR_CEILING
+   ************* Construction=NONRESWINDOW_U_0.362_SHGC_NORTH_0.379
+   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in Daylighting:Controls="DINING_DAYLCTRL", only 0.760 of the zone or space is controlled.
+   ** Warning ** Calculated design heating load for zone=KITCHEN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ************* SizeDXCoil: Potential issue with equipment sizing for Coil:Cooling:DX:MultiSpeed PSZ-AC_1:1 COOLING COIL
+   **   ~~~   ** User-Specified Speed 2 Rated Air Flow Rate [m3/s] = 1.57916
+   **   ~~~   ** differs from Design Size Speed 2 Rated Air Flow Rate [m3/s] = 0.79041
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeDXCoil: Potential issue with equipment sizing for Coil:Cooling:DX:MultiSpeed PSZ-AC_1:1 COOLING COIL
+   **   ~~~   ** User-Specified Speed 1 Rated Air Flow Rate [m3/s] = 1.05277
+   **   ~~~   ** differs from Design Size Speed 1 Rated Air Flow Rate [m3/s] = 0.39520
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeDXCoil: Potential issue with equipment sizing for Coil:Cooling:DX:MultiSpeed PSZ-AC_1:1 COOLING COIL
+   **   ~~~   ** User-Specified Speed 2 Gross Rated Total Cooling Capacity [W] = 39214.24000
+   **   ~~~   ** differs from Design Size Speed 2 Gross Rated Total Cooling Capacity [W] = 26140.70518
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeDXCoil: Potential issue with equipment sizing for Coil:Cooling:DX:MultiSpeed PSZ-AC_1:1 COOLING COIL
+   **   ~~~   ** User-Specified Speed 1 Gross Rated Total Cooling Capacity [W] = 19607.12000
+   **   ~~~   ** differs from Design Size Speed 1 Gross Rated Total Cooling Capacity [W] = 13070.35259
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:MultiSpeed = PSZ-AC_1:1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:MultiSpeed=PSZ-AC_1:1 COOLING COIL:  The Seasonal Energy Efficiency Ratio (SEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_CAPFT
+   **   ~~~   **  Check limits in Energy Input Ratio Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:MultiSpeed = PSZ-AC_1:1 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:MultiSpeed=PSZ-AC_1:1 COOLING COIL:  The Seasonal Energy Efficiency Ratio (SEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_CAPFT
+   **   ~~~   **  Check limits in Energy Input Ratio Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_EIRFT
+   ************* SizeDXCoil: Potential issue with equipment sizing for Coil:Cooling:DX:MultiSpeed PSZ-AC_2:2 COOLING COIL
+   **   ~~~   ** User-Specified Speed 1 Rated Air Flow Rate [m3/s] = 0.76089
+   **   ~~~   ** differs from Design Size Speed 1 Rated Air Flow Rate [m3/s] = 0.59434
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:MultiSpeed = PSZ-AC_2:2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:MultiSpeed=PSZ-AC_2:2 COOLING COIL:  The Seasonal Energy Efficiency Ratio (SEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_CAPFT
+   **   ~~~   **  Check limits in Energy Input Ratio Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_EIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:MultiSpeed = PSZ-AC_2:2 COOLING COIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:MultiSpeed=PSZ-AC_2:2 COOLING COIL:  The Seasonal Energy Efficiency Ratio (SEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_CAPFT
+   **   ~~~   **  Check limits in Energy Input Ratio Function of Temperature Curve, Curve Type = Curve:Biquadratic, Curve Name = LGDX_EIRFT
+   ** Warning ** For zone=KITCHEN return air cooling by refrigerated cases will be applied to the zone air.
+   **   ~~~   **   This zone has no return air or is served by an on/off HVAC system.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Coil control failed to converge for AirLoopHVAC:UnitarySystem:PSZ-AC_2:2_UNITARY_PACKAGE_DX
+   **   ~~~   **   Iteration limit exceeded in calculating system sensible part-load ratio.
+   **   ~~~   ** Sensible load to be met = -1577.98 (watts), sensible output = -1586.16 (watts), and the simulation continues.
+   **   ~~~   **  During Warmup, Environment=RUNPERIOD 1, at Simulation time=01/01 01:30 - 01:35
+   ** Warning ** Coil control failed for AirLoopHVAC:UnitarySystem:PSZ-AC_2:2_UNITARY_PACKAGE_DX
+   **   ~~~   **   sensible part-load ratio determined to be outside the range of 0-1.
+   **   ~~~   ** Sensible load to be met = -26799.33 (watts), and the simulation continues.
+   **   ~~~   **  During Warmup, Environment=RUNPERIOD 1, at Simulation time=01/01 04:30 - 04:32
+   ** Warning ** In zone KITCHEN there is unbalanced air flow. Load due to induced outdoor air is neglected.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 00:00 - 00:10
+   **   ~~~   **   Flows [m3/s]: Inlets: 0.858597  Unbalanced exhausts: 1.141334  Returns: 0.000000
+   **   ~~~   **   Infiltration: 3.349074E-003  Zone Ventilation: 0.000000  Mixing (incoming): 0.000000
+   **   ~~~   **   Imbalance (excess outflow): 0.279388  Total system OA flow (for all airloops serving this zone): 1.188687
+   **   ~~~   **   This error will only be reported once per zone.
+   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityGeneratedPropaneMonthly' invalid Variable or Meter Name 'ELECTRICITYPRODUCED:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityGeneratedPropaneMonthly' invalid Variable or Meter Name 'ELECTRICITYPRODUCED:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityGeneratedPropaneMonthly' invalid Variable or Meter Name 'PROPANE:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityGeneratedPropaneMonthly' invalid Variable or Meter Name 'PROPANE:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'DIESEL:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'DIESEL:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO1:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO1:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO2:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO2:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'COAL:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'COAL:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'GASOLINE:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'GASOLINE:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL1:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL1:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL2:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL2:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'COGENERATION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'COOLING:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'HUMIDIFIER:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'COOLING:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'HEATING:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'COGENERATION:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionCoalMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:COAL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionCoalMonthly' invalid Variable or Meter Name 'HEATING:COAL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionCoalMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:COAL'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'COOLING:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'HEATING:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'COGENERATION:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'HUMIDIFIER:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'COOLING:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'HEATING:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'COGENERATION:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart1Monthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'WATERSYSTEMS:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'COGENERATION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'ElectricComponentsOfPeakDemandMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'ElectricComponentsOfPeakDemandMonthly' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'COOLING:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'COOLING:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'HEATING:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'COGENERATION:DIESEL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseCoalMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:COAL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseCoalMonthly' invalid Variable or Meter Name 'HEATING:COAL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseCoalMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:COAL'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'COOLING:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'HEATING:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'COGENERATION:PROPANE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'COOLING:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'HEATING:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'COGENERATION:GASOLINE'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL1'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL2'
+   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR SYSTEM EFFICIENCY'
+   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR SYSTEM EFFICIENCY'
+   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR OUTSIDE FACE SUCTION VELOCITY'
+   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR SENSIBLE HEATING RATE'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER ELECTRICITY RATE'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER EVAPORATOR COOLING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER EVAPORATOR COOLING RATE'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER CONDENSER HEAT TRANSFER ENERGY'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER COP'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER COP'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER PART LOAD RATIO'
+   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER PART LOAD RATIO'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER FAN ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER FAN ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER FAN ELECTRICITY RATE'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER HEAT TRANSFER RATE'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER INLET TEMPERATURE'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER OUTLET TEMPERATURE'
+   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER MASS FLOW RATE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER GAS CONSUMPTION'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER HEATING RATE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER GAS CONSUMPTION RATE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER INLET TEMPERATURE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER OUTLET TEMPERATURE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER MASS FLOW RATE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER ANCILLARY ELECTRICITY RATE'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER PART LOAD RATIO'
+   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER PART LOAD RATIO'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER TOTAL COOLING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER TOTAL COOLING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER SENSIBLE COOLING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER LATENT COOLING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER TOTAL COOLING RATE'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER SENSIBLE COOLING RATE'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER LATENT COOLING RATE'
+   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER ELECTRICITY RATE'
+   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER BURNER HEATING ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER GAS CONSUMPTION'
+   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER LOSS DEMAND ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER HEAT RECOVERY SUPPLY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER SOURCE ENERGY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR PRODUCED AC ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR DIESEL CONSUMPTION'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR GAS CONSUMPTION'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR PRODUCED AC ELECTRICITY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR TOTAL HEAT RECOVERY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR JACKET HEAT RECOVERY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR LUBE HEAT RECOVERY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR EXHAUST HEAT RECOVERY ENERGY'
+   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR EXHAUST AIR TEMPERATURE'
+   ** Warning ** In Output:Table:Monthly 'CoilReportMonthly' invalid Variable or Meter Name 'COOLING COIL WETTED AREA FRACTION'
+   ** Warning ** In Output:Table:Monthly 'AirLoopSystemEnergyAndWaterUseMonthly' invalid Variable or Meter Name 'AIR SYSTEM NATURAL GAS ENERGY'
+   ** Warning ** In Output:Table:Monthly 'AirLoopSystemComponentEnergyUseMonthly' invalid Variable or Meter Name 'AIR SYSTEM HEATING COIL NATURAL GAS ENERGY'
+   ** Warning ** In Output:Table:Monthly 'AirLoopSystemComponentEnergyUseMonthly' invalid Variable or Meter Name 'AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY'
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..Variables not valid for this simulation will have "[Invalid/Undefined]" in the Units Column of the Table Report.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE PEOPLE TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE PEOPLE TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE LIGHTS TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE LIGHTS TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE PEOPLE TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE PEOPLE TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE LIGHTS TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE LIGHTS TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakSpaceGainsMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=DINING:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=KITCHEN:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE PEOPLE TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE PEOPLE TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE LIGHTS TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE LIGHTS TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE GAS EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: SpaceGainComponentsAtCoolingPeakMonthly
+   **   ~~~   ** ..Variable name=ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionElectricityGeneratedPropaneMonthly
+   **   ~~~   ** ..Variable name=ELECTRICITYPRODUCED:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionElectricityGeneratedPropaneMonthly
+   **   ~~~   ** ..Variable name=ELECTRICITYPRODUCED:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionElectricityGeneratedPropaneMonthly
+   **   ~~~   ** ..Variable name=PROPANE:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionElectricityGeneratedPropaneMonthly
+   **   ~~~   ** ..Variable name=PROPANE:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDieselFuelOilMonthly
+   **   ~~~   ** ..Variable name=DIESEL:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDieselFuelOilMonthly
+   **   ~~~   ** ..Variable name=DIESEL:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDieselFuelOilMonthly
+   **   ~~~   ** ..Variable name=FUELOILNO1:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDieselFuelOilMonthly
+   **   ~~~   ** ..Variable name=FUELOILNO1:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDieselFuelOilMonthly
+   **   ~~~   ** ..Variable name=FUELOILNO2:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDieselFuelOilMonthly
+   **   ~~~   ** ..Variable name=FUELOILNO2:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDistrictHeatingCoolingMonthly
+   **   ~~~   ** ..Variable name=DISTRICTCOOLING:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDistrictHeatingCoolingMonthly
+   **   ~~~   ** ..Variable name=DISTRICTCOOLING:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDistrictHeatingCoolingMonthly
+   **   ~~~   ** ..Variable name=DISTRICTHEATING:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionDistrictHeatingCoolingMonthly
+   **   ~~~   ** ..Variable name=DISTRICTHEATING:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionCoalGasolineMonthly
+   **   ~~~   ** ..Variable name=COAL:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionCoalGasolineMonthly
+   **   ~~~   ** ..Variable name=COAL:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionCoalGasolineMonthly
+   **   ~~~   ** ..Variable name=GASOLINE:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionCoalGasolineMonthly
+   **   ~~~   ** ..Variable name=GASOLINE:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=OTHERFUEL1:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=OTHERFUEL1:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=OTHERFUEL2:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=OTHERFUEL2:FACILITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=HEATREJECTION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=HEATRECOVERY:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=HEATREJECTION:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HEATREJECTION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HUMIDIFIER:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=HEATRECOVERY:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HEATRECOVERY:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:WATERSYSTEMS:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionElectricityMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:COGENERATION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COOLING:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:EXTERIOREQUIPMENT:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COOLING:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:COOLING:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:COGENERATION:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionNaturalGasMonthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HUMIDIFIER:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionDieselMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionDieselMonthly
+   **   ~~~   ** ..Variable name=COOLING:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionDieselMonthly
+   **   ~~~   ** ..Variable name=HEATING:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionDieselMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionDieselMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=COOLING:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=HEATING:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=COOLING:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=HEATING:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionFuelOilMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionCoalMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:COAL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionCoalMonthly
+   **   ~~~   ** ..Variable name=HEATING:COAL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionCoalMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:COAL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionPropaneMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionPropaneMonthly
+   **   ~~~   ** ..Variable name=COOLING:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionPropaneMonthly
+   **   ~~~   ** ..Variable name=HEATING:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionPropaneMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionPropaneMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionPropaneMonthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionGasolineMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionGasolineMonthly
+   **   ~~~   ** ..Variable name=COOLING:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionGasolineMonthly
+   **   ~~~   ** ..Variable name=HEATING:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionGasolineMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionGasolineMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COOLING:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=HEATING:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COOLING:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=HEATING:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: EndUseEnergyConsumptionOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart1Monthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart1Monthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=HEATREJECTION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=HEATRECOVERY:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=COGENERATION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=HEATREJECTION:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HEATREJECTION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=HUMIDIFIER:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HUMIDIFIER:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=HEATRECOVERY:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HEATRECOVERY:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:WATERSYSTEMS:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseElectricityPart2Monthly
+   **   ~~~   ** ..Variable name=COGENERATION:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:COGENERATION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ElectricComponentsOfPeakDemandMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ElectricComponentsOfPeakDemandMonthly
+   **   ~~~   ** ..Variable name=HEATREJECTION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ElectricComponentsOfPeakDemandMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:EXTERIOREQUIPMENT:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ElectricComponentsOfPeakDemandMonthly
+   **   ~~~   ** ..Variable name=HEATREJECTION:ELECTRICITY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:HEATREJECTION:ELECTRICITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseNaturalGasMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COOLING:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseNaturalGasMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:EXTERIOREQUIPMENT:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COOLING:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:COOLING:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseNaturalGasMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:NATURALGAS not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=Meter:COGENERATION:NATURALGAS not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseDieselMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseDieselMonthly
+   **   ~~~   ** ..Variable name=COOLING:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseDieselMonthly
+   **   ~~~   ** ..Variable name=HEATING:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseDieselMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseDieselMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:DIESEL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=COOLING:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=HEATING:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:FUELOILNO1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=COOLING:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=HEATING:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseFuelOilMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:FUELOILNO2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseCoalMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:COAL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseCoalMonthly
+   **   ~~~   ** ..Variable name=HEATING:COAL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseCoalMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:COAL not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUsePropaneMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUsePropaneMonthly
+   **   ~~~   ** ..Variable name=COOLING:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUsePropaneMonthly
+   **   ~~~   ** ..Variable name=HEATING:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUsePropaneMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUsePropaneMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:PROPANE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseGasolineMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseGasolineMonthly
+   **   ~~~   ** ..Variable name=COOLING:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseGasolineMonthly
+   **   ~~~   ** ..Variable name=HEATING:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseGasolineMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseGasolineMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:GASOLINE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COOLING:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=HEATING:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:OTHERFUEL1 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=EXTERIOREQUIPMENT:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COOLING:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=HEATING:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=WATERSYSTEMS:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: PeakEnergyEndUseOtherFuelsMonthly
+   **   ~~~   ** ..Variable name=COGENERATION:OTHERFUEL2 not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: UnglazedTranspiredSolarCollectorSummaryMonthly
+   **   ~~~   ** ..Variable name=SOLAR COLLECTOR SYSTEM EFFICIENCY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: UnglazedTranspiredSolarCollectorSummaryMonthly
+   **   ~~~   ** ..Variable name=SOLAR COLLECTOR SYSTEM EFFICIENCY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: UnglazedTranspiredSolarCollectorSummaryMonthly
+   **   ~~~   ** ..Variable name=SOLAR COLLECTOR OUTSIDE FACE SUCTION VELOCITY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: UnglazedTranspiredSolarCollectorSummaryMonthly
+   **   ~~~   ** ..Variable name=SOLAR COLLECTOR SENSIBLE HEATING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER ELECTRICITY RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER EVAPORATOR COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER EVAPORATOR COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER CONDENSER HEAT TRANSFER ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER COP not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER COP not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER PART LOAD RATIO not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ChillerReportMonthly
+   **   ~~~   ** ..Variable name=CHILLER PART LOAD RATIO not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER FAN ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER FAN ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER FAN ELECTRICITY RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER HEAT TRANSFER RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER INLET TEMPERATURE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER OUTLET TEMPERATURE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: TowerReportMonthly
+   **   ~~~   ** ..Variable name=COOLING TOWER MASS FLOW RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER GAS CONSUMPTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER HEATING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER GAS CONSUMPTION RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER INLET TEMPERATURE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER OUTLET TEMPERATURE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER MASS FLOW RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER ANCILLARY ELECTRICITY RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER PART LOAD RATIO not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: BoilerReportMonthly
+   **   ~~~   ** ..Variable name=BOILER PART LOAD RATIO not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER TOTAL COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER TOTAL COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER SENSIBLE COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER LATENT COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER TOTAL COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER SENSIBLE COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER LATENT COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WindowACReportMonthly
+   **   ~~~   ** ..Variable name=ZONE WINDOW AIR CONDITIONER ELECTRICITY RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER BURNER HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER GAS CONSUMPTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER LOSS DEMAND ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER HEAT RECOVERY SUPPLY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER SOURCE ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER BURNER HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=SWHSYS1 WATER HEATER:WATER HEATER BURNER HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER GAS CONSUMPTION not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=SWHSYS1 WATER HEATER:WATER HEATER GAS CONSUMPTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER LOSS DEMAND ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=SWHSYS1 WATER HEATER:WATER HEATER LOSS DEMAND ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER HEAT RECOVERY SUPPLY ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=SWHSYS1 WATER HEATER:WATER HEATER HEAT RECOVERY SUPPLY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: WaterHeaterReportMonthly
+   **   ~~~   ** ..Variable name=WATER HEATER SOURCE ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=SWHSYS1 WATER HEATER:WATER HEATER SOURCE ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR PRODUCED AC ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR DIESEL CONSUMPTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR GAS CONSUMPTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR PRODUCED AC ELECTRICITY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR TOTAL HEAT RECOVERY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR JACKET HEAT RECOVERY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR LUBE HEAT RECOVERY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR EXHAUST HEAT RECOVERY ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: GeneratorReportMonthly
+   **   ~~~   ** ..Variable name=GENERATOR EXHAUST AIR TEMPERATURE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL TOTAL COOLING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 HEATING COIL:COOLING COIL TOTAL COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL SENSIBLE COOLING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 HEATING COIL:COOLING COIL SENSIBLE COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL TOTAL COOLING RATE not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 HEATING COIL:COOLING COIL TOTAL COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL SENSIBLE COOLING RATE not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 HEATING COIL:COOLING COIL SENSIBLE COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 HEATING COIL:COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL TOTAL COOLING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 HEATING COIL:COOLING COIL TOTAL COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL SENSIBLE COOLING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 HEATING COIL:COOLING COIL SENSIBLE COOLING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL TOTAL COOLING RATE not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 HEATING COIL:COOLING COIL TOTAL COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL SENSIBLE COOLING RATE not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 HEATING COIL:COOLING COIL SENSIBLE COOLING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 HEATING COIL:COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=HEATING COIL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 COOLING COIL:HEATING COIL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=HEATING COIL HEATING RATE not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 COOLING COIL:HEATING COIL HEATING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1 COOLING COIL:COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=HEATING COIL HEATING ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 COOLING COIL:HEATING COIL HEATING ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=HEATING COIL HEATING RATE not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 COOLING COIL:HEATING COIL HEATING RATE not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: CoilReportMonthly
+   **   ~~~   ** ..Variable name=COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2 COOLING COIL:COOLING COIL WETTED AREA FRACTION not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: ZoneTemperatureOscillationReportMonthly
+   **   ~~~   ** ..Variable name=ZONE PEOPLE OCCUPANT COUNT not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=ATTIC:ZONE PEOPLE OCCUPANT COUNT not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemEnergyAndWaterUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemEnergyAndWaterUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM NATURAL GAS ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1:AIR SYSTEM NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemEnergyAndWaterUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM NATURAL GAS ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2:AIR SYSTEM NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemComponentEnergyUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM HEATING COIL NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemComponentEnergyUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemComponentEnergyUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM HEATING COIL NATURAL GAS ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1:AIR SYSTEM HEATING COIL NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemComponentEnergyUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_1:1:AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemComponentEnergyUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM HEATING COIL NATURAL GAS ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2:AIR SYSTEM HEATING COIL NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** Processing Monthly Tabular Reports: AirLoopSystemComponentEnergyUseMonthly
+   **   ~~~   ** ..Variable name=AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY not valid for this simulation.
+   **   ~~~   ** ..i.e., Variable name=PSZ-AC_2:2:AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY not valid for this simulation.
+   ** Warning ** In zone DINING there is unbalanced air flow. Load due to induced outdoor air is neglected.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 01:04 - 01:05
+   **   ~~~   **   Flows [m3/s]: Inlets: 0.401137  Unbalanced exhausts: 0.416093  Returns: 0.000000
+   **   ~~~   **   Infiltration: 1.002279E-002  Zone Ventilation: 0.000000  Mixing (incoming): 0.000000
+   **   ~~~   **   Imbalance (excess outflow): 4.933309E-003  Total system OA flow (for all airloops serving this zone): 0.592805
+   **   ~~~   **   This error will only be reported once per zone.
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 01:04 - 01:05
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.439416,0.439416,0.439416,0.439416,0.439416,0.000000,0.439416,0.439416,0.439416,0.439416,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.456974,0.456974,0.456974,0.456974,0.456974,0.456974,0.456974,0.456974,0.456974,0.456974,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 9.477837,9.477837,9.477837,9.477837,0.000000,9.477837,9.477837,9.477837,9.477837,9.477837,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 8571.668218,8571.668218,8571.668218,8571.668218,8571.668218,0.000000,8571.668218,8571.668218,8571.668218,8571.668218,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 8435.879078,-8435.879078,8435.879078,-8435.879078,12920.657512,8435.879078,-8435.879078,8435.879078,-8435.879078,8435.879078,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.272610E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.272610E-003,3.263511E-003,3.272610E-003,3.263511E-003,3.272610E-003,3.263511E-003,3.272610E-003,3.263511E-003,3.272610E-003,3.263511E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.927878
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.927878,0.470905,0.927878,0.470905,0.927878,0.470905,0.927878,0.470905,0.927878,0.470905,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 28.138111
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 28.138111,37.615948,28.138111,37.615948,28.138111,37.615948,28.138111,37.615948,28.138111,37.615948,
+   ** Severe  ** CheckAirLoopFlowBalance: AirLoopHVAC PSZ-AC_1:1 is unbalanced. Supply is > return plus outdoor air.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 01:04 - 01:05
+   **   ~~~   **   Flows [m3/s at standard density]: Supply=0.790407  Return=0.374314  Outdoor Air=0.300853
+   **   ~~~   **   Imbalance=0.115240
+   **   ~~~   **   This error will only be reported once per system.
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 01:40 - 01:42
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 5.383730E-002,5.383730E-002,5.383730E-002,5.383730E-002,5.383730E-002,0.000000,5.383730E-002,5.383730E-002,5.383730E-002,5.383730E-002,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.111238,0.111238,0.111238,0.111238,0.111238,0.111238,0.111238,0.111238,0.111238,0.111238,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 7.105427E-015,7.105427E-015,7.105427E-015,7.105427E-015,7.105427E-015,0.000000,7.105427E-015,7.105427E-015,7.105427E-015,7.105427E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 2.312027,2.312027,2.312027,2.312027,0.000000,2.312027,2.312027,2.312027,2.312027,2.312027,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 1037.531797,1037.531797,1037.531797,1037.531797,1037.531797,0.000000,1037.531797,1037.531797,1037.531797,1037.531797,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 2143.736840,-2143.736840,2143.736840,-2143.736840,3145.189997,2143.736840,-2143.736840,2143.736840,-2143.736840,2143.736840,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.272610E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.272610E-003,3.272736E-003,3.272610E-003,3.272736E-003,3.272610E-003,3.272736E-003,3.272610E-003,3.272736E-003,3.272610E-003,3.272736E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.542299
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.542299,0.431061,0.542299,0.431061,0.542299,0.431061,0.542299,0.431061,0.542299,0.431061,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 28.138111
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 28.138111,30.450138,28.138111,30.450138,28.138111,30.450138,28.138111,30.450138,28.138111,30.450138,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 02:20 - 02:22
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 6.128248E-002,6.128248E-002,6.128248E-002,6.128248E-002,6.128248E-002,0.000000,6.128248E-002,6.128248E-002,6.128248E-002,6.128248E-002,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.126000,0.126000,0.126000,0.126000,0.126000,0.126000,0.126000,0.126000,0.126000,0.126000,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 2.591503,2.591503,2.591503,2.591503,0.000000,2.591503,2.591503,2.591503,2.591503,2.591503,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 1181.098551,1181.098551,1181.098551,1181.098551,1181.098551,0.000000,1181.098551,1181.098551,1181.098551,1181.098551,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 2428.395925,-2428.395925,2428.395925,-2428.395925,3531.851588,2428.395925,-2428.395925,2428.395925,-2428.395925,2428.395925,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.132836E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.132836E-003,3.151359E-003,3.132836E-003,3.151359E-003,3.132836E-003,3.151359E-003,3.132836E-003,3.151359E-003,3.132836E-003,3.151359E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.549745
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.549745,0.423745,0.549745,0.423745,0.549745,0.423745,0.549745,0.423745,0.549745,0.423745,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.895499
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.895499,30.487003,27.895499,30.487003,27.895499,30.487003,27.895499,30.487003,27.895499,30.487003,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 03:00 - 03:02
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.174064,0.174064,0.174064,0.174064,0.174064,0.000000,0.174064,0.174064,0.174064,0.174064,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.256472,0.256472,0.256472,0.256472,0.256472,0.256472,0.256472,0.256472,0.256472,0.256472,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 5.333861,5.333861,5.333861,5.333861,0.000000,5.333861,5.333861,5.333861,5.333861,5.333861,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 3359.226210,3359.226210,3359.226210,3359.226210,3359.226210,0.000000,3359.226210,3359.226210,3359.226210,3359.226210,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 4949.599809,-4949.599809,4949.599809,-4949.599809,7125.927761,4949.599809,-4949.599809,4949.599809,-4949.599809,4949.599809,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.038693E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.038693E-003,3.079173E-003,3.038693E-003,3.079173E-003,3.038693E-003,3.079173E-003,3.038693E-003,3.079173E-003,3.038693E-003,3.079173E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.662526
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.662526,0.406054,0.662526,0.406054,0.662526,0.406054,0.662526,0.406054,0.662526,0.406054,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.650478
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.650478,32.984339,27.650478,32.984339,27.650478,32.984339,27.650478,32.984339,27.650478,32.984339,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 03:40 - 03:42
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.136145,0.136145,0.136145,0.136145,0.136145,0.000000,0.136145,0.136145,0.136145,0.136145,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.220919,0.220919,0.220919,0.220919,0.220919,0.220919,0.220919,0.220919,0.220919,0.220919,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 4.585526,4.585526,4.585526,4.585526,0.000000,4.585526,4.585526,4.585526,4.585526,4.585526,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 2635.204363,2635.204363,2635.204363,2635.204363,2635.204363,0.000000,2635.204363,2635.204363,2635.204363,2635.204363,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 4276.074586,-4276.074586,4276.074586,-4276.074586,6136.164444,4276.074586,-4276.074586,4276.074586,-4276.074586,4276.074586,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.204112E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.204112E-003,3.193624E-003,3.204112E-003,3.193624E-003,3.204112E-003,3.193624E-003,3.204112E-003,3.193624E-003,3.204112E-003,3.193624E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.624607
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.624607,0.403688,0.624607,0.403688,0.624607,0.403688,0.624607,0.403688,0.624607,0.403688,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.641731
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.641731,32.227257,27.641731,32.227257,27.641731,32.227257,27.641731,32.227257,27.641731,32.227257,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/01 04:20 - 04:22
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.243957,0.243957,0.243957,0.243957,0.243957,0.000000,0.243957,0.243957,0.243957,0.243957,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.328069,0.328069,0.328069,0.328069,0.328069,0.328069,0.328069,0.328069,0.328069,0.328069,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 6.787130,6.787130,6.787130,6.787130,0.000000,6.787130,6.787130,6.787130,6.787130,6.787130,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 4725.545555,4725.545555,4725.545555,4725.545555,4725.545555,0.000000,4725.545555,4725.545555,4725.545555,4725.545555,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 6354.840636,-6354.840636,6354.840636,-6354.840636,9112.507832,6354.840636,-6354.840636,6354.840636,-6354.840636,6354.840636,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.193916E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.193916E-003,3.198592E-003,3.193916E-003,3.198592E-003,3.193916E-003,3.198592E-003,3.193916E-003,3.198592E-003,3.193916E-003,3.198592E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.732419
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.732419,0.404350,0.732419,0.404350,0.732419,0.404350,0.732419,0.404350,0.732419,0.404350,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.642270
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.642270,34.429400,27.642270,34.429400,27.642270,34.429400,27.642270,34.429400,27.642270,34.429400,
+   ** Warning ** CalcEquipmentFlowRates: "KITCHEN WATER EQUIPMENT" - Target water temperature is greater than the hot water temperature (1.11 C)
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=01/01 07:00 - 07:10
+   **   ~~~   ** ...target water temperature       = 60.00 C
+   **   ~~~   ** ...hot water temperature       = 58.89 C
+   **   ~~~   ** ...Note: target water temperature should be less than or equal to the hot water temperature
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 01:04 - 01:05
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.417594,0.417594,0.417594,0.417594,0.417594,0.000000,0.417594,0.417594,0.417594,0.417594,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.417594,0.417594,0.417594,0.417594,0.417594,0.417594,0.417594,0.417594,0.417594,0.417594,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 8.845348,8.845348,8.845348,8.845348,0.000000,8.845348,8.845348,8.845348,8.845348,8.845348,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 8133.035530,8133.035530,8133.035530,8133.035530,8133.035530,0.000000,8133.035530,8133.035530,8133.035530,8133.035530,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 7296.054437,-7296.054437,7296.054437,-7296.054437,11831.557930,7296.054437,-7296.054437,7296.054437,-7296.054437,7296.054437,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 2.883719E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 2.883719E-003,2.920199E-003,2.883719E-003,2.920199E-003,2.883719E-003,2.920199E-003,2.883719E-003,2.920199E-003,2.883719E-003,2.920199E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.927878
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.927878,0.510284,0.927878,0.510284,0.927878,0.510284,0.927878,0.510284,0.927878,0.510284,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 28.196080
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 28.196080,37.041428,28.196080,37.041428,28.196080,37.041428,28.196080,37.041428,28.196080,37.041428,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 01:40 - 01:43
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.439416,0.439416,0.439416,0.439416,0.439416,0.000000,0.439416,0.439416,0.439416,0.439416,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.510084,0.510084,0.510084,0.510084,0.510084,0.510084,0.510084,0.510084,0.510084,0.510084,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 9.849170,9.849170,9.849170,9.849170,0.000000,9.849170,9.849170,9.849170,9.849170,9.849170,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 8432.011481,8432.011481,8432.011481,8432.011481,8432.011481,0.000000,8432.011481,8432.011481,8432.011481,8432.011481,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 9731.890782,-9731.890782,9731.890782,-9731.890782,13866.748100,9731.890782,-9731.890782,9731.890782,-9731.890782,9731.890782,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 2.969076E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 2.969076E-003,2.953939E-003,2.969076E-003,2.953939E-003,2.969076E-003,2.953939E-003,2.969076E-003,2.953939E-003,2.969076E-003,2.953939E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.927878
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.927878,0.417794,0.927878,0.417794,0.927878,0.417794,0.927878,0.417794,0.927878,0.417794,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.054160
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.054160,36.903331,27.054160,36.903331,27.054160,36.903331,27.054160,36.903331,27.054160,36.903331,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 02:20 - 02:22
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.210414,0.210414,0.210414,0.210414,0.210414,0.000000,0.210414,0.210414,0.210414,0.210414,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.307025,0.307025,0.307025,0.307025,0.307025,0.307025,0.307025,0.307025,0.307025,0.307025,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 6.253806,6.253806,6.253806,6.253806,0.000000,6.253806,6.253806,6.253806,6.253806,6.253806,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 4032.317597,4032.317597,4032.317597,4032.317597,4032.317597,0.000000,4032.317597,4032.317597,4032.317597,4032.317597,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 5883.728082,-5883.728082,5883.728082,-5883.728082,8346.163938,5883.728082,-5883.728082,5883.728082,-5883.728082,5883.728082,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 2.991592E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 2.991592E-003,2.988609E-003,2.991592E-003,2.988609E-003,2.991592E-003,2.988609E-003,2.991592E-003,2.988609E-003,2.991592E-003,2.988609E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.698877
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.698877,0.391852,0.698877,0.391852,0.698877,0.391852,0.698877,0.391852,0.698877,0.391852,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.052969
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.052969,33.306775,27.052969,33.306775,27.052969,33.306775,27.052969,33.306775,27.052969,33.306775,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 03:00 - 03:02
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.181507,0.181507,0.181507,0.181507,0.181507,0.000000,0.181507,0.181507,0.181507,0.181507,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.275049,0.275049,0.275049,0.275049,0.275049,0.275049,0.275049,0.275049,0.275049,0.275049,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 5.608000,5.608000,5.608000,5.608000,0.000000,5.608000,5.608000,5.608000,5.608000,5.608000,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 3483.509283,3483.509283,3483.509283,3483.509283,3483.509283,0.000000,3483.509283,3483.509283,3483.509283,3483.509283,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 5278.778309,-5278.778309,5278.778309,-5278.778309,7504.218746,5278.778309,-5278.778309,5278.778309,-5278.778309,5278.778309,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.016244E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.016244E-003,3.012667E-003,3.016244E-003,3.012667E-003,3.016244E-003,3.012667E-003,3.016244E-003,3.012667E-003,3.016244E-003,3.012667E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.669969
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.669969,0.394920,0.669969,0.394920,0.669969,0.394920,0.669969,0.394920,0.669969,0.394920,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.151665
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.151665,32.759665,27.151665,32.759665,27.151665,32.759665,27.151665,32.759665,27.151665,32.759665,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 03:40 - 03:42
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.149291,0.149291,0.149291,0.149291,0.149291,0.000000,0.149291,0.149291,0.149291,0.149291,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.231937,0.231937,0.231937,0.231937,0.231937,0.231937,0.231937,0.231937,0.231937,0.231937,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 4.828733,4.828733,4.828733,4.828733,0.000000,4.828733,4.828733,4.828733,4.828733,4.828733,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 2864.905593,2864.905593,2864.905593,2864.905593,2864.905593,0.000000,2864.905593,2864.905593,2864.905593,2864.905593,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 4450.889639,-4450.889639,4450.889639,-4450.889639,6419.959823,4450.889639,-4450.889639,4450.889639,-4450.889639,4450.889639,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 3.116717E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 3.116717E-003,3.097433E-003,3.116717E-003,3.097433E-003,3.116717E-003,3.097433E-003,3.116717E-003,3.097433E-003,3.116717E-003,3.097433E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.637753
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.637753,0.405816,0.637753,0.405816,0.637753,0.405816,0.637753,0.405816,0.637753,0.405816,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.546352
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.546352,32.375085,27.546352,32.375085,27.546352,32.375085,27.546352,32.375085,27.546352,32.375085,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/02 04:20 - 04:22
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.236101,0.236101,0.236101,0.236101,0.236101,0.000000,0.236101,0.236101,0.236101,0.236101,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.307674,0.307674,0.307674,0.307674,0.307674,0.307674,0.307674,0.307674,0.307674,0.307674,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for humidity ratio
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface humidity ratio check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 humidity ratio check value iteration history trace: 1.363343E-004,1.363343E-004,1.363343E-004,1.363343E-004,0.000000,1.363343E-004,1.363343E-004,1.363343E-004,1.363343E-004,1.363343E-004,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 6.500792,6.500792,6.500792,6.500792,0.000000,6.500792,6.500792,6.500792,6.500792,6.500792,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 4534.189401,4534.189401,4534.189401,4534.189401,4534.189401,0.000000,4534.189401,4534.189401,4534.189401,4534.189401,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 5908.721912,-5908.721912,5908.721912,-5908.721912,8631.955247,5908.721912,-5908.721912,5908.721912,-5908.721912,5908.721912,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 2.665413E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 2.665413E-003,2.801748E-003,2.665413E-003,2.801748E-003,2.665413E-003,2.801748E-003,2.665413E-003,2.801748E-003,2.665413E-003,2.801748E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.724563
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.724563,0.416889,0.724563,0.416889,0.724563,0.416889,0.724563,0.416889,0.724563,0.416889,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 27.920234
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 27.920234,34.421027,27.920234,34.421027,27.920234,34.421027,27.920234,34.421027,27.920234,34.421027,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/03 01:04 - 01:05
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 0.352041,0.352041,0.352041,0.352041,0.352041,0.000000,0.352041,0.352041,0.352041,0.352041,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 0.352041,0.352041,0.352041,0.352041,0.352041,0.352041,0.352041,0.352041,0.352041,0.352041,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 6.754348,6.754348,6.754348,6.754348,0.000000,6.754348,6.754348,6.754348,6.754348,6.754348,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 6837.045462,6837.045462,6837.045462,6837.045462,6837.045462,0.000000,6837.045462,6837.045462,6837.045462,6837.045462,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 6601.076412,-6601.076412,6601.076412,-6601.076412,10509.322377,6601.076412,-6601.076412,6601.076412,-6601.076412,6601.076412,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 2.393432E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 2.393432E-003,2.424427E-003,2.393432E-003,2.424427E-003,2.393432E-003,2.424427E-003,2.393432E-003,2.424427E-003,2.393432E-003,2.424427E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.927878
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.927878,0.575837,0.927878,0.575837,0.927878,0.575837,0.927878,0.575837,0.927878,0.575837,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 29.708648
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 29.708648,36.462996,29.708648,36.462996,29.708648,36.462996,29.708648,36.462996,29.708648,36.462996,
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUNPERIOD 1, 01/03 01:08 - 01:09
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for mass flow rate
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface mass flow rate check value iteration history trace: 2.549740E-003,2.549740E-003,2.549740E-003,2.549740E-003,2.549740E-003,0.000000,2.549740E-003,2.549740E-003,2.549740E-003,2.549740E-003,
+   **   ~~~   ** Supply-to-demand interface deck 1 mass flow rate check value iteration history trace: 1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,1.259343E-002,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,0.000000,3.552714E-015,3.552714E-015,3.552714E-015,3.552714E-015,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 0.156933,0.156933,0.156933,0.156933,0.000000,0.156933,0.156933,0.156933,0.156933,0.156933,
+   **   ~~~   ** Air System Named = PSZ-AC_1:1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 51.302664,51.302664,51.302664,51.302664,51.302664,0.000000,51.302664,51.302664,51.302664,51.302664,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 253.389205,-253.389205,253.389205,-253.389205,328.832451,253.389205,-253.389205,253.389205,-253.389205,253.389205,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating humidity ratio across iterations with a repeated value of 2.376349E-003
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 2.376349E-003,2.376964E-003,2.376349E-003,2.376964E-003,2.376349E-003,2.376964E-003,2.376349E-003,2.376964E-003,2.376349E-003,2.376964E-003,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating mass flow rate across iterations with a repeated value of 0.491012
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE mass flow rate [kg/s] iteration history trace (most recent first): 0.491012,0.478418,0.491012,0.478418,0.491012,0.478418,0.491012,0.478418,0.491012,0.478418,
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE shows oscillating temperatures across iterations with a repeated value of 25.985553
+   **   ~~~   ** Node named DINING DIRECT AIR INLET NODE temperature [C] iteration history trace (most recent first): 25.985553,26.142485,25.985553,26.142485,25.985553,26.142485,25.985553,26.142485,25.985553,26.142485,
+   ** Warning ** WetBulb not converged after 101 iterations(PsyTwbFnTdbWPb)
+   **   ~~~   **  Routine=CalcMultiSpeedDXCoilCooling, Environment=RUNPERIOD 1, at Simulation time=01/05 14:30 - 14:40
+   **   ~~~   **  Input Temperature = 6.25
+   **   ~~~   **  Input Humidity Ratio= 1.342075E-003
+   **   ~~~   **  Input Pressure = 99000.00
+   **   ~~~   **  Resultant Temperature= 8.06E-002
+   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   **   ~~~   **  Routine=CalcMultiSpeedDXCoilCooling, Environment=RUNPERIOD 1, at Simulation time=01/25 20:10 - 20:20
+   **   ~~~   **  Input Temperature=-123.51
+   ** Severe  ** CheckAirLoopFlowBalance: AirLoopHVAC PSZ-AC_2:2 is unbalanced. Supply is > return plus outdoor air.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=02/11 03:53 - 03:55
+   **   ~~~   **   Flows [m3/s at standard density]: Supply=3.019492E-003  Return=0.000000  Outdoor Air=0.000000
+   **   ~~~   **   Imbalance=3.019492E-003
+   **   ~~~   **   This error will only be reported once per system.
+   ** Warning ** Coil:Cooling:DX:MultiSpeed "PSZ-AC_1:1 COOLING COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 2.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=04/30 14:20 - 14:30
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005] Current value is 2.050E-005 m3/s/W
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components or
+   **   ~~~   ** inconsistent supply air fan operation modes in coil and unitary system objects.
+   ** Warning ** Coil:Cooling:DX:MultiSpeed "PSZ-AC_1:1 COOLING COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 1.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=06/13 14:40 - 14:50
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005] Current value is 2.669E-005 m3/s/W
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components or
+   **   ~~~   ** inconsistent supply air fan operation modes in coil and unitary system objects.
+   ** Warning ** Coil control failed for AirLoopHVAC:UnitarySystem:PSZ-AC_1:1_UNITARY_PACKAGE_DX
+   **   ~~~   **   sensible part-load ratio determined to be outside the range of 0-1.
+   **   ~~~   ** Sensible load to be met = -850.49 (watts), and the simulation continues.
+   **   ~~~   **  Environment=RUNPERIOD 1, at Simulation time=07/11 00:50 - 01:00
+   ************* Simulation Error Summary *************
+   ************* There are 21 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** AirLoopHVAC:UnitarySystem "PSZ-AC_2:2_UNITARY_PACKAGE_DX" - Iteration limit exceeded in calculating sensible part-load ratio error continues. Sensible load statistics:
+   *************  **   ~~~   **   This error occurred 247 total times;
+   *************  **   ~~~   **   during Warmup 3 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-381.90144  Min=-8983.101812
+   *************
+   *************  ** Warning ** AirLoopHVAC:UnitarySystem "PSZ-AC_2:2_UNITARY_PACKAGE_DX" - sensible part-load ratio out of range error continues. Sensible load statistics:
+   *************  **   ~~~   **   This error occurred 3543 total times;
+   *************  **   ~~~   **   during Warmup 21 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-24.955034  Min=-38085.105628
+   *************
+   *************  ** Warning ** "KITCHEN WATER EQUIPMENT" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 840671 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.891054  Min=0.225986
+   *************
+   *************  ** Warning ** SimHVAC: Exceeding Maximum iterations for all HVAC loops, during RUNPERIOD 1 continues
+   *************  **   ~~~   **   This error occurred 4089 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************
+   *************  ** Warning ** WetBulb not converged after max iterations(PsyTwbFnTdbWPb)
+   *************  **   ~~~   **   This error occurred 4 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************
+   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   *************  **   ~~~   **   This error occurred 15 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-118.790329 C  Min=-1281.412231 C
+   *************
+   *************  ** Warning ** Coil:Cooling:DX:MultiSpeed "PSZ-AC_1:1 COOLING COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 2 error continues...
+   *************  **   ~~~   **   This error occurred 79721 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=2.144528E-005  Min=2.010871E-005
+   *************
+   *************  ** Warning ** Coil:Cooling:DX:MultiSpeed "PSZ-AC_1:1 COOLING COIL" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 1 error continues...
+   *************  **   ~~~   **   This error occurred 1784 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=2.683873E-005  Min=2.654350E-005
+   *************
+   *************  ** Warning ** AirLoopHVAC:UnitarySystem "PSZ-AC_1:1_UNITARY_PACKAGE_DX" - sensible part-load ratio out of range error continues. Sensible load statistics:
+   *************  **   ~~~   **   This error occurred 14 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-391.944528  Min=-1394.005444
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 930583 Warning; 2 Severe Errors; Elapsed Time=00hr 01min 41.47sec

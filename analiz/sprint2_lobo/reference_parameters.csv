@@ -1,0 +1,6 @@
+building_type,window_u_value,window_shgc,lighting_W_m2,equipment_W_m2,occupancy_m2_person,infiltration,outdoor_air,cooling_cop,heating_efficiency,heating_setpoint_C,cooling_setpoint_C,roof_u_value,zone_count
+OfficeMedium,2.0612,0.378,6.664,8.158,18.579,0.00057,0.000432,3.399,0.8,20.53,25.65,0.1864,18
+SchoolPrimary,2.1064,0.3754,7.554,13.961,10.007,0.00057,0.001509,3.768,0.8,21,26.03,0.1864,25
+RetailStripmall,2.0555,0.379,8.712,4.3,6.194,0.00057,0.001181,3.788,0.8,21.11,23.89,0.1864,10
+ApartmentMidRise,2.1691,0.368,2.976,6.67,33.015,0.00057,0.0003,3.912,0.8,20.63,24.45,0.1864,27
+RestaurantFastFood,2.0555,0.379,7.308,40.624,9.923,0.00057,0.006703,3.799,0.8,20,25,0.122,3

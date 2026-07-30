@@ -1,0 +1,11 @@
+building,baseline_type,window_u_value,window_shgc,lighting_W_m2,equipment_W_m2,occupancy_m2_person,outdoor_air,cooling_cop,heating_setpoint_C,cooling_setpoint_C
+OfficeMedium,lobo_median_loo,2.0839,0.378,7.223,13.229,17.849,0.001078,3.912,21.0,24.45
+OfficeMedium,global_constant,2.0839,0.378,7.034,13.229,18.579,0.000609,4.117,21.0,24.1
+SchoolPrimary,lobo_median_loo,2.0669,0.378,7.034,11.963,18.579,0.000609,3.912,20.97,24.45
+SchoolPrimary,global_constant,2.0839,0.378,7.034,13.229,18.579,0.000609,4.117,21.0,24.1
+RetailStripmall,lobo_median_loo,2.0839,0.378,7.034,13.229,18.579,0.000609,3.912,20.97,24.93
+RetailStripmall,global_constant,2.0839,0.378,7.034,13.229,18.579,0.000609,4.117,21.0,24.1
+ApartmentMidRise,lobo_median_loo,2.0669,0.378,7.223,13.229,17.849,0.001078,3.835,21.0,24.93
+ApartmentMidRise,global_constant,2.0839,0.378,7.034,13.229,18.579,0.000609,4.117,21.0,24.1
+RestaurantFastFood,lobo_median_loo,2.0839,0.378,7.034,11.963,18.579,0.000609,3.912,21.0,24.45
+RestaurantFastFood,global_constant,2.0839,0.378,7.034,13.229,18.579,0.000609,4.117,21.0,24.1

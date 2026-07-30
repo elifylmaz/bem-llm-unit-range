@@ -1,0 +1,39 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                log_gso   R-squared:                       0.529
+Model:                            OLS   Adj. R-squared:                  0.525
+Method:                 Least Squares   F-statistic:                     133.8
+Date:                Wed, 29 Jul 2026   Prob (F-statistic):          1.46e-278
+Time:                        13:09:13   Log-Likelihood:                -2868.7
+No. Observations:                1800   AIC:                             5769.
+Df Residuals:                    1784   BIC:                             5857.
+Df Model:                          15                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================
+                                          coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------
+Intercept                               4.1485      0.113     36.781      0.000       3.927       4.370
+C(Unit)[T.1]                           -1.2584      0.080    -15.779      0.000      -1.415      -1.102
+C(Range)[T.1]                          -1.3941      0.080    -17.480      0.000      -1.551      -1.238
+C(building)[T.OfficeMedium]             0.0205      0.089      0.230      0.819      -0.154       0.195
+C(building)[T.RestaurantFastFood]      -0.1424      0.089     -1.597      0.110      -0.317       0.032
+C(building)[T.RetailStripmall]          0.0531      0.089      0.596      0.551      -0.122       0.228
+C(building)[T.SchoolPrimary]           -0.0688      0.089     -0.772      0.440      -0.244       0.106
+C(true_name)[T.cooling_setpoint_C]     -1.2271      0.120    -10.258      0.000      -1.462      -0.992
+C(true_name)[T.equipment_W_m2]          0.7383      0.120      6.172      0.000       0.504       0.973
+C(true_name)[T.heating_setpoint_C]     -1.3802      0.120    -11.537      0.000      -1.615      -1.146
+C(true_name)[T.lighting_W_m2]           0.5907      0.120      4.938      0.000       0.356       0.825
+C(true_name)[T.occupancy_m2_person]     1.0079      0.120      8.425      0.000       0.773       1.243
+C(true_name)[T.outdoor_air]             2.5192      0.120     21.058      0.000       2.285       2.754
+C(true_name)[T.window_shgc]            -0.1499      0.120     -1.253      0.210      -0.385       0.085
+C(true_name)[T.window_u_value]          0.1336      0.120      1.117      0.264      -0.101       0.368
+C(Unit)[T.1]:C(Range)[T.1]              1.2231      0.113     10.844      0.000       1.002       1.444
+==============================================================================
+Omnibus:                      116.830   Durbin-Watson:                   1.740
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              428.571
+Skew:                          -0.214   Prob(JB):                     8.65e-94
+Kurtosis:                       5.352   Cond. No.                         13.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

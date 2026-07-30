@@ -1,0 +1,578 @@
+{
+  "audit": [
+    {
+      "building": "OfficeMedium",
+      "parameter": "window_u_value",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 1.954957,
+      "lobo_hi": 3.563643,
+      "range_width": 1.608686,
+      "reference_value": 2.0612,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "window_shgc",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.3601,
+      "lobo_hi": 0.4865,
+      "range_width": 0.1264,
+      "reference_value": 0.378,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "lighting_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.461071,
+      "lobo_hi": 10.699929,
+      "range_width": 8.238857,
+      "reference_value": 6.664,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "equipment_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.246143,
+      "lobo_hi": 43.315857,
+      "range_width": 43.069714,
+      "reference_value": 8.158,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "occupancy_m2_person",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.682357,
+      "lobo_hi": 56.020643,
+      "range_width": 53.338286,
+      "reference_value": 18.579,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "outdoor_air",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.0,
+      "lobo_hi": 0.00716,
+      "range_width": 0.00716,
+      "reference_value": 0.000432,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "cooling_cop",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 3.111786,
+      "lobo_hi": 6.907214,
+      "range_width": 3.795429,
+      "reference_value": 3.399,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "heating_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 18.088571,
+      "lobo_hi": 21.311429,
+      "range_width": 3.222857,
+      "reference_value": 20.53,
+      "inside_range": true
+    },
+    {
+      "building": "OfficeMedium",
+      "parameter": "cooling_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 22.740714,
+      "lobo_hi": 26.249286,
+      "range_width": 3.508571,
+      "reference_value": 25.65,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "window_u_value",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 1.954957,
+      "lobo_hi": 3.563643,
+      "range_width": 1.608686,
+      "reference_value": 2.1064,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "window_shgc",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.3601,
+      "lobo_hi": 0.4865,
+      "range_width": 0.1264,
+      "reference_value": 0.3754,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "lighting_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.461071,
+      "lobo_hi": 10.699929,
+      "range_width": 8.238857,
+      "reference_value": 7.554,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "equipment_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.246143,
+      "lobo_hi": 43.315857,
+      "range_width": 43.069714,
+      "reference_value": 13.961,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "occupancy_m2_person",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.682357,
+      "lobo_hi": 56.020643,
+      "range_width": 53.338286,
+      "reference_value": 10.007,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "outdoor_air",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.0,
+      "lobo_hi": 0.00716,
+      "range_width": 0.00716,
+      "reference_value": 0.001509,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "cooling_cop",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 3.111786,
+      "lobo_hi": 6.907214,
+      "range_width": 3.795429,
+      "reference_value": 3.768,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "heating_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 18.088571,
+      "lobo_hi": 21.311429,
+      "range_width": 3.222857,
+      "reference_value": 21.0,
+      "inside_range": true
+    },
+    {
+      "building": "SchoolPrimary",
+      "parameter": "cooling_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 22.763571,
+      "lobo_hi": 25.906429,
+      "range_width": 3.142857,
+      "reference_value": 26.03,
+      "inside_range": false
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "window_u_value",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 1.954957,
+      "lobo_hi": 3.563643,
+      "range_width": 1.608686,
+      "reference_value": 2.0555,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "window_shgc",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.3601,
+      "lobo_hi": 0.4865,
+      "range_width": 0.1264,
+      "reference_value": 0.379,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "lighting_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.461071,
+      "lobo_hi": 10.699929,
+      "range_width": 8.238857,
+      "reference_value": 8.712,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "equipment_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.246143,
+      "lobo_hi": 43.315857,
+      "range_width": 43.069714,
+      "reference_value": 4.3,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "occupancy_m2_person",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.682357,
+      "lobo_hi": 56.020643,
+      "range_width": 53.338286,
+      "reference_value": 6.194,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "outdoor_air",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.0,
+      "lobo_hi": 0.00716,
+      "range_width": 0.00716,
+      "reference_value": 0.001181,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "cooling_cop",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 3.111786,
+      "lobo_hi": 6.907214,
+      "range_width": 3.795429,
+      "reference_value": 3.788,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "heating_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 18.088571,
+      "lobo_hi": 21.311429,
+      "range_width": 3.222857,
+      "reference_value": 21.11,
+      "inside_range": true
+    },
+    {
+      "building": "RetailStripmall",
+      "parameter": "cooling_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 22.740714,
+      "lobo_hi": 26.249286,
+      "range_width": 3.508571,
+      "reference_value": 23.89,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "window_u_value",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 1.954957,
+      "lobo_hi": 3.563643,
+      "range_width": 1.608686,
+      "reference_value": 2.1691,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "window_shgc",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.3601,
+      "lobo_hi": 0.4865,
+      "range_width": 0.1264,
+      "reference_value": 0.368,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "lighting_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.461071,
+      "lobo_hi": 10.699929,
+      "range_width": 8.238857,
+      "reference_value": 2.976,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "equipment_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.246143,
+      "lobo_hi": 43.315857,
+      "range_width": 43.069714,
+      "reference_value": 6.67,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "occupancy_m2_person",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.682357,
+      "lobo_hi": 56.020643,
+      "range_width": 53.338286,
+      "reference_value": 33.015,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "outdoor_air",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.0,
+      "lobo_hi": 0.00716,
+      "range_width": 0.00716,
+      "reference_value": 0.0003,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "cooling_cop",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 3.111786,
+      "lobo_hi": 6.907214,
+      "range_width": 3.795429,
+      "reference_value": 3.912,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "heating_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 18.088571,
+      "lobo_hi": 21.311429,
+      "range_width": 3.222857,
+      "reference_value": 20.63,
+      "inside_range": true
+    },
+    {
+      "building": "ApartmentMidRise",
+      "parameter": "cooling_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 22.740714,
+      "lobo_hi": 26.249286,
+      "range_width": 3.508571,
+      "reference_value": 24.45,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "window_u_value",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 1.954957,
+      "lobo_hi": 3.563643,
+      "range_width": 1.608686,
+      "reference_value": 2.0555,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "window_shgc",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.3601,
+      "lobo_hi": 0.4865,
+      "range_width": 0.1264,
+      "reference_value": 0.379,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "lighting_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.461071,
+      "lobo_hi": 10.699929,
+      "range_width": 8.238857,
+      "reference_value": 7.308,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "equipment_W_m2",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.432857,
+      "lobo_hi": 40.515143,
+      "range_width": 40.082286,
+      "reference_value": 40.624,
+      "inside_range": false
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "occupancy_m2_person",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 2.682357,
+      "lobo_hi": 56.020643,
+      "range_width": 53.338286,
+      "reference_value": 9.923,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "outdoor_air",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 0.0,
+      "lobo_hi": 0.005321,
+      "range_width": 0.005321,
+      "reference_value": 0.006703,
+      "inside_range": false
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "cooling_cop",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 3.111786,
+      "lobo_hi": 6.907214,
+      "range_width": 3.795429,
+      "reference_value": 3.799,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "heating_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 18.088571,
+      "lobo_hi": 21.311429,
+      "range_width": 3.222857,
+      "reference_value": 20.0,
+      "inside_range": true
+    },
+    {
+      "building": "RestaurantFastFood",
+      "parameter": "cooling_setpoint_C",
+      "pool_n": 15,
+      "buffer_pct_of_width": 7.1,
+      "lobo_lo": 22.740714,
+      "lobo_hi": 26.249286,
+      "range_width": 3.508571,
+      "reference_value": 25.0,
+      "inside_range": true
+    }
+  ],
+  "containment_by_building": [
+    {
+      "building": "OfficeMedium",
+      "contained": 9,
+      "total": 9,
+      "containment_ratio_pct": 100.0
+    },
+    {
+      "building": "SchoolPrimary",
+      "contained": 8,
+      "total": 9,
+      "containment_ratio_pct": 88.9
+    },
+    {
+      "building": "RetailStripmall",
+      "contained": 9,
+      "total": 9,
+      "containment_ratio_pct": 100.0
+    },
+    {
+      "building": "ApartmentMidRise",
+      "contained": 9,
+      "total": 9,
+      "containment_ratio_pct": 100.0
+    },
+    {
+      "building": "RestaurantFastFood",
+      "contained": 7,
+      "total": 9,
+      "containment_ratio_pct": 77.8
+    }
+  ],
+  "building_specificity": [
+    {
+      "parameter": "window_u_value",
+      "cv_midpoint_pct": 0.0,
+      "building_specific": false
+    },
+    {
+      "parameter": "window_shgc",
+      "cv_midpoint_pct": 0.0,
+      "building_specific": false
+    },
+    {
+      "parameter": "lighting_W_m2",
+      "cv_midpoint_pct": 0.0,
+      "building_specific": false
+    },
+    {
+      "parameter": "equipment_W_m2",
+      "cv_midpoint_pct": 2.72,
+      "building_specific": false
+    },
+    {
+      "parameter": "occupancy_m2_person",
+      "cv_midpoint_pct": 0.0,
+      "building_specific": false
+    },
+    {
+      "parameter": "outdoor_air",
+      "cv_midpoint_pct": 12.11,
+      "building_specific": true
+    },
+    {
+      "parameter": "cooling_cop",
+      "cv_midpoint_pct": 0.0,
+      "building_specific": false
+    },
+    {
+      "parameter": "heating_setpoint_C",
+      "cv_midpoint_pct": 0.0,
+      "building_specific": false
+    },
+    {
+      "parameter": "cooling_setpoint_C",
+      "cv_midpoint_pct": 0.29,
+      "building_specific": false
+    }
+  ]
+}

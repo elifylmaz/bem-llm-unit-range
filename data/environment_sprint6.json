@@ -1,0 +1,13 @@
+{
+  "sprint": "Sprint 6",
+  "design_note": "Mixed-effects LRT / marginal-conditional R2 (original plan) dropped: main-climate data has exactly one observation per (building, format, model, seed) group [energy] or per (building, format, model, seed, parameter) group [GSO], so a random-intercept model is degenerate in both cases. Replaced with residual diagnostics, nonparametric sensitivity checks, and per-model robustness (S6A-E), run in parallel for both K4 formulas.",
+  "energy_shapiro_resid_p": 1.1541999640672826e-06,
+  "energy_levene_p": 7.588759552430741e-06,
+  "energy_kruskal_unit_p": 0.0007254862699220115,
+  "energy_kruskal_range_p": 0.005388314323225726,
+  "gso_shapiro_resid_p": 3.8135022741852496e-19,
+  "gso_levene_p": 1.1684426164080913e-06,
+  "gso_kruskal_unit_p": 1.909016727451924e-13,
+  "gso_kruskal_range_p": 7.105517914430462e-22,
+  "schema_identical_across_buildings": true
+}

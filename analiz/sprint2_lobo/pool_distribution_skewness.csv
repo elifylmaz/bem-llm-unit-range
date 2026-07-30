@@ -1,0 +1,10 @@
+parameter,n,skewness
+window_u_value,16,3.479
+window_shgc,16,3.471
+lighting_W_m2,16,-0.452
+equipment_W_m2,16,0.949
+occupancy_m2_person,16,1.12
+outdoor_air,16,2.13
+cooling_cop,16,1.117
+heating_setpoint_C,16,-2.247
+cooling_setpoint_C,16,-0.046

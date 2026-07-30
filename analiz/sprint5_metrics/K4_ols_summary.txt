@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_cvrmse   R-squared:                       0.533
+Model:                            OLS   Adj. R-squared:                  0.510
+Method:                 Least Squares   F-statistic:                     23.36
+Date:                Wed, 29 Jul 2026   Prob (F-statistic):           1.26e-23
+Time:                        13:09:12   Log-Likelihood:                -227.86
+No. Observations:                 173   AIC:                             473.7
+Df Residuals:                     164   BIC:                             502.1
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================================
+                                        coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+Intercept                             3.9952      0.267     14.986      0.000       3.469       4.522
+C(Unit)[T.1]                         -1.8266      0.236     -7.752      0.000      -2.292      -1.361
+C(Range)[T.1]                        -1.9661      0.235     -8.366      0.000      -2.430      -1.502
+C(building)[T.OfficeMedium]           1.5195      0.220      6.898      0.000       1.085       1.955
+C(building)[T.RestaurantFastFood]     1.7521      0.220      7.953      0.000       1.317       2.187
+C(building)[T.RetailStripmall]        0.9386      0.220      4.261      0.000       0.504       1.374
+C(building)[T.SchoolPrimary]          1.4565      0.226      6.457      0.000       1.011       1.902
+C(model)[T.openai/gpt-oss-120b]       0.0483      0.151      0.319      0.750      -0.250       0.347
+C(Unit)[T.1]:C(Range)[T.1]            1.5760      0.300      5.251      0.000       0.983       2.169
+==============================================================================
+Omnibus:                       24.976   Durbin-Watson:                   1.627
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               72.059
+Skew:                           0.528   Prob(JB):                     2.25e-16
+Kurtosis:                       5.980   Cond. No.                         10.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

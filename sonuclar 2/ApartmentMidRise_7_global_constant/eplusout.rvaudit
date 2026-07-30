@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:/content/drive/MyDrive/BEM-LLM/idf_llm/ApartmentMidRise_7_global_constant.rvi
+ input file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_7_global_constant/eplusout.eso
+ output file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_7_global_constant/eplusout.csv
+ getting all vars from:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_7_global_constant/eplusout.eso
+  number variables requested for output=          56
+ ReadVars Run Time=00hr 00min  0.03sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:/content/drive/MyDrive/BEM-LLM/idf_llm/ApartmentMidRise_7_global_constant.mvi
+ input file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_7_global_constant/eplusout.mtr
+ output file:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_7_global_constant/eplusmtr.csv
+ getting all vars from:/content/drive/MyDrive/BEM-LLM/sonuclar/ApartmentMidRise_7_global_constant/eplusout.mtr
+  number variables requested for output=           4
+ ReadVars Run Time=00hr 00min  0.19sec
+ ReadVarsESO program completed successfully.
