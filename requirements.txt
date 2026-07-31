@@ -1,0 +1,22 @@
+# Python 3.12 (developed and tested on 3.12.13)
+#
+# Versions below are taken verbatim from this project's own
+# reproducibility records (data/environment_sprint2.json and
+# data/environment_sprint3.json), where recorded. Packages used in
+# Sprint 5/6 (statsmodels, for the ANOVA/GLM models) did not have
+# their version captured in the environment records; a recent
+# statsmodels 0.14.x is expected to work but was not pinned at
+# data-collection time -- please record your installed version if you
+# re-run these notebooks.
+
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.16.3
+matplotlib==3.10.0
+groq==1.6.0
+statsmodels>=0.14,<0.15
+
+# Only required if running the notebooks outside Google Colab, where
+# `from google.colab import drive` is unavailable and unnecessary:
+# comment out or remove the Colab-specific setup cell (S*-0) in each
+# notebook and set BASE to a local path instead.

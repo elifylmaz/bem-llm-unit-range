@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated article."
+type: software
+title: "bem-llm-unit-range: Code and data for 'The Effect of Unit and Range Information on Large Language Model-Based Building Energy Parameterization'"
+authors:
+  - family-names: "Yılmaz"
+    given-names: "Elif"
+    email: "elifylmz.official@gmail.com"
+    affiliation: "Bursa Technical University, Faculty of Engineering and Natural Sciences"
+  - family-names: "Şentürk"
+    given-names: "İzzet Fatih"
+    affiliation: "Bursa Technical University, Faculty of Engineering and Natural Sciences"
+repository-code: "https://github.com/elifylmaz/bem-llm-unit-range"
+license: MIT
+version: "1.0-submission"
+date-released: "2026-07-31"
+preferred-citation:
+  type: article
+  title: "The Effect of Unit and Range Information on Large Language Model-Based Building Energy Parameterization"
+  authors:
+    - family-names: "Yılmaz"
+      given-names: "Elif"
+    - family-names: "Şentürk"
+      given-names: "İzzet Fatih"
+  journal: "Advanced Engineering Informatics"
+  year: 2026
+  status: "submitted"
+  notes: "Special Issue: Application of Large Language Models in Energy Engineering and Informatics"
